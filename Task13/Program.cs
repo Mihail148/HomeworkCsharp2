@@ -10,7 +10,7 @@ Console.WriteLine("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 
 int result = ThirdDigit(number);
-Console.WriteLine($"Третья цифра будет такой -> {result}");
+Console.WriteLine($"Третья цифра в числе -> {result}");
 
 int ThirdDigit(int num)
 {
